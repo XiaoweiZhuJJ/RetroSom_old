@@ -1,0 +1,30 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/6135BA6FA_Model.retro_vretro_v40_1.read1.fa /home/xwzhu/levinson/RetroSom/temp/6135BA6FA_Model.retro_vretro_v40_1.read2.fa]
+Hostname: [hppsl230s-rcf-412-08-l]
+
+C4 Alignment:
+------------
+         Query: read1
+        Target: read2
+         Model: affine:local:dna2dna
+     Raw score: 692
+   Query range: 0 -> 142
+  Target range: 0 -> 142
+
+   1 : CTAAAAATACAAAAAATTAGCCGGGCGCGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGG :  64
+       ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1 : CTAAAAATACAAAAAATTAGCCGGGCGCGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGG :  64
+
+  65 : CTGAGGCAGGAGAATGGCGTGAACCCGGGAAGCGGAGCTTGCAGTGAGCCGAGATTGCGCCACT : 128
+       |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||
+  65 : CTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATTGCGCCACT : 128
+
+ 129 : GCGGTCCGCAGTCC : 142
+       || |||||||||||
+ 129 : GCAGTCCGCAGTCC : 142
+
+vulgar: read1 0 142 + read2 0 142 + 692 M 142 142
+INFO: read1 142 98.59 + read2 0 142 0 142 CTAAAAATACAAAAAATTAGCCGGGCGCGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGG
+CAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATTGCGCCACTGCAGTCCGCAGT
+CC
+
+-- completed exonerate analysis

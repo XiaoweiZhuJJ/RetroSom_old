@@ -1,0 +1,25 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/Astro_Brain.retro_vretro_v42_1.read1.fa /home/xwzhu/levinson/RetroSom/temp/Astro_Brain.retro_vretro_v42_1.read2.fa]
+Hostname: [dper730xd-srcf-d16-19]
+
+C4 Alignment:
+------------
+         Query: read1
+        Target: read2
+         Model: affine:local:dna2dna
+     Raw score: 551
+   Query range: 0 -> 112
+  Target range: 0 -> 112
+
+   1 : CGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCAGATCACGAG :  64
+       |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||
+   1 : CGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGCGGCGGGCAGATCACGAG :  64
+
+  65 : GTCAGGAGATCGAGACCATCCTGGCTAACATGGTGAAACCCCGTCTCT : 112
+       ||||||||||||||||||||||||||||||||||||||||||||||||
+  65 : GTCAGGAGATCGAGACCATCCTGGCTAACATGGTGAAACCCCGTCTCT : 112
+
+vulgar: read1 0 112 + read2 0 112 + 551 M 112 112
+INFO: read1 112 99.11 + read2 0 112 0 112 CGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGCGGCGGGCAGATCACGAGGTCAGG
+AGATCGAGACCATCCTGGCTAACATGGTGAAACCCCGTCTCT
+
+-- completed exonerate analysis

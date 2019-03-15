@@ -1,0 +1,30 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/Heart_3_Model.retro_vretro_v41_1.read1.fa /home/xwzhu/levinson/RetroSom/temp/Heart_3_Model.retro_vretro_v41_1.read2.fa]
+Hostname: [sgisummit-rcf-111-38]
+
+C4 Alignment:
+------------
+         Query: read1
+        Target: read2
+         Model: affine:local:dna2dna
+     Raw score: 715
+   Query range: 0 -> 143
+  Target range: 0 -> 143
+
+   1 : AGGTGCTGGAGAGGATGTGGAGAAATAGGAACACTTTTACACTGTTGGTGGGACTGTAAACTAG :  64
+       ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   1 : AGGTGCTGGAGAGGATGTGGAGAAATAGGAACACTTTTACACTGTTGGTGGGACTGTAAACTAG :  64
+
+  65 : TTCAACCATTGTGGAAGTCAGTGTGGCGATTCCTCAGGGATCTAGAACTAGAAATACCATTTGA : 128
+       ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  65 : TTCAACCATTGTGGAAGTCAGTGTGGCGATTCCTCAGGGATCTAGAACTAGAAATACCATTTGA : 128
+
+ 129 : CCCAGCCATCCCATT : 143
+       |||||||||||||||
+ 129 : CCCAGCCATCCCATT : 143
+
+vulgar: read1 0 143 + read2 0 143 + 715 M 143 143
+INFO: read1 143 100.00 + read2 0 143 0 143 AGGTGCTGGAGAGGATGTGGAGAAATAGGAACACTTTTACACTGTTGGTGGGACTGTAAACTAGTTCAAC
+CATTGTGGAAGTCAGTGTGGCGATTCCTCAGGGATCTAGAACTAGAAATACCATTTGACCCAGCCATCCC
+ATT
+
+-- completed exonerate analysis

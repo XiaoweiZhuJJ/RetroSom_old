@@ -1,0 +1,25 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/4587BA6FA_Model.retro_vretro_v40_1.read1.fa /home/xwzhu/levinson/RetroSom/temp/4587BA6FA_Model.retro_vretro_v40_1.read2.fa]
+Hostname: [dper730xd-srcf-d16-11]
+
+C4 Alignment:
+------------
+         Query: read1
+        Target: read2
+         Model: affine:local:dna2dna
+     Raw score: 401
+   Query range: 1 -> 83
+  Target range: 0 -> 82
+
+  2 : CAGTGAAACCCCGTCTCTACTAAAAATACACAAAATTAGCCGGGAGCGGTGGCGGGCTCCTGTAGT : 67
+      |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+  1 : CAGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGAGCGGTGGCGGGCTCCTGTAGT : 66
+
+ 68 : CCCAGCTACTTGAGAG : 83
+      ||||||||||||||||
+ 67 : CCCAGCTACTTGAGAG : 82
+
+vulgar: read1 1 83 + read2 0 82 + 401 M 82 82
+INFO: read1 82 98.78 + read2 1 83 0 82 CAGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGAGCGGTGGCGGGCTCCTGTAGTCCCA
+GCTACTTGAGAG
+
+-- completed exonerate analysis

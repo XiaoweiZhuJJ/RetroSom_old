@@ -1,0 +1,24 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/Neuron_6_Model.retro_vretro_v42_0.read1.fa /home/xwzhu/levinson/RetroSom/temp/Neuron_6_Model.retro_vretro_v42_0.read2.fa]
+Hostname: [sgisummit-rcf-111-20]
+
+C4 Alignment:
+------------
+         Query: read1
+        Target: read2
+         Model: affine:local:dna2dna
+     Raw score: 345
+   Query range: 0 -> 69
+  Target range: 1 -> 70
+
+  1 : AGGCGCCTGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGA : 66
+      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  2 : AGGCGCCTGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGA : 67
+
+ 67 : GCT : 69
+      |||
+ 68 : GCT : 70
+
+vulgar: read1 0 69 + read2 1 70 + 345 M 69 69
+INFO: read1 69 100.00 + read2 0 69 1 70 AGGCGCCTGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCT
+
+-- completed exonerate analysis

@@ -1,0 +1,1 @@
+./05_plot_anchor_study.sh  LINE L1HS $1 $2 $3 L1HS TITR retro_v41_$4 /home/xwzhu/transfer/Project_VAC_11092_B01_GRM_WGS.2015-09-20/hg38 /srv/gsfs0/projects/levinson/xwzhu/retromin/refTE/sequence/L1HS.fa 316 hg38

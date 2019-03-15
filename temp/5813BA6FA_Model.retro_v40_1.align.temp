@@ -1,0 +1,3 @@
+Command line: [/home/xwzhu/levinson/RetroSom/exonerate/exonerate --bestn 1 --model affine:local -s 10 --ryo INFO: %qi %qal %pi %tS %ti %qab %qae %tab %tae %tas\n /home/xwzhu/levinson/RetroSom/temp/5813BA6FA_Model.retro_v40_1.read1.fa /home/xwzhu/levinson/RetroSom/temp/5813BA6FA_Model.retro_v40_1.read2.fa]
+Hostname: [dper730xd-srcf-d16-13]
+-- completed exonerate analysis

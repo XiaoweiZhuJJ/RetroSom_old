@@ -1,0 +1,49 @@
+### Add NA12878 ###
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_1/retro_v40/CONT_1.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_2/retro_v40/CONT_2.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_3/retro_v40/CONT_3.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_4/retro_v40/CONT_4.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_5/retro_v40/CONT_5.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
+awk '{if (($4 ~/Alu/) && ($1~/chr/)) print}' \
+   /home/xwzhu/transfer/titration/Bulk/1702UNHX-0011/CONT_6/retro_v40/CONT_6.$6.discover | \
+   windowBed -w $WIN \
+   -a stdin \
+   -b $workfolder/$sub/$TE/$tissue.$TE.no$4.$cont\plus.learn.$cut.calls \
+   | awk '{if (($4 ~ /Alu/) && ($8 > 95) ) print cont6"\t"$0}' \
+   >> $workfolder/$sub/ALU/$tissue.ALU.no$4.$cont\plus.learn.$cut.old.discover
+
